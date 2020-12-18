@@ -1,0 +1,13 @@
+.content {
+  display: flex;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.content-body {
+  width: 100%;
+  position: relative;
+  @media screen and (min-width: $screen-md) {
+    margin-left: 255px;
+  }
+}

@@ -1,0 +1,30 @@
+.input-group {
+    margin: 10px 0;
+    display: block;
+  label {
+    font-size: 12px;
+    color: #333333;
+    margin-bottom: 5px;
+    display: block;
+    margin-left: 6px;
+  }
+  input,
+  select {
+    border-radius: 8px;
+    border: 1px solid #999; 
+    width: 100%;
+    background-color: $color-white;
+    transition: 0.3s;
+    &:focus{
+        outline: none;
+        border-color: #333;
+    }
+  }
+  input {
+    padding: 8px 10px;
+  }
+
+  select {
+    padding: 10px;
+  }
+}

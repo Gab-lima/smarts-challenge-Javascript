@@ -1,0 +1,12 @@
+.filter {
+  background-color: #5f314a;
+  border-radius: 0 0 45px 45px;
+  padding: 30px 55px 140px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  @media screen and (min-width: $screen-md) {
+    border-radius: 0 0 80px 80px;
+  }
+}

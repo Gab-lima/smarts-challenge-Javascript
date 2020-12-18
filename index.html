@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teste</title>
+  <link rel="stylesheet" href="dist/styles.min.css" />
+</head>
+
+<body>
+  <div class="content">
+
+
+    <aside>
+      <nav>
+        <img src="./images/logo_staff_pq.png" alt="">
+        <ul>
+          <li><a href="#"><i class="fas fa-chalkboard"></i> Painel de controle</a></li>
+          <li><a href="#"><i class="fas fa-user"></i> Usuários</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <div class="content-body">
+      <header class="hidden-md hidden-lg">
+        <button class="menu-toggle hidden-md hidden-lg" id="menu-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </header>
+
+      <section class="filter">
+
+        <h5 class="text-center small-separate text-white">Smart Dashboard</h5>
+        <div class="full-width">
+          <div class="row">
+
+            <div class="xs-12 md-4">
+              <div class="input-group">
+                <label for="" class="text-white">Filtro:</label>
+                <select name="" id="filter">
+                  <option value="">Selecione um</option>
+                  <option value="menor-budget">Menor Budget</option>
+                  <option value="maior-budget">Maior Budget</option>
+                  <option value="asc">A-Z</option>
+                  <option value="desc">Z-A</option>
+                </select>
+              </div>
+            </div>
+
+          </div>
+          <div class="full-width">
+            <div class="row align-end">
+              <div class="xs-12 md-4">
+                <div class="input-group">
+                  <label for="" class="text-white">Inicio:</label>
+                  <input name="date-start" id="date-start" type="date">
+                </div>
+              </div>
+
+              <div class="xs-12 md-4">
+                <div class="input-group">
+                  <label for="" class="text-white">Fim:</label>
+                  <input name="date-end" id="date-end" type="date">
+                </div>
+              </div>
+
+              <div class="xs-12 md-4">
+                <button id="search-date" >Filtrar por data</button>
+              </div>
+
+            </div>
+          </div>
+      </section>
+
+
+      <section class="container-body">
+        <div class="container">
+          <div id="content" class="card _align-top">
+          </div>
+        </div>
+      </section>
+
+
+    </div>
+  </div>
+</body>
+<script src="dist/scripts.min.js"></script>
+<script src="https://kit.fontawesome.com/9745549948.js" crossorigin="anonymous"></script>
+<script>
+  getData()
+</script>
+
+</html>

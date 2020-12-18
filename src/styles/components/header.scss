@@ -1,0 +1,14 @@
+header{
+    background-color: $color-lgray02;
+    width: 100%;
+    padding: 28px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1px solid $color-lgray;
+
+    .menu-toggle{
+        position: relative;
+        @include menu-toggle($color-dgray, 25px)
+    }
+}

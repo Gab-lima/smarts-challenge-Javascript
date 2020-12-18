@@ -1,0 +1,50 @@
+aside {
+  z-index: 999;
+  position: fixed;
+  background-color: $color-dgray;
+  width: 80vw;
+  height: 100vh;
+  display: block;
+  left: 0;
+  top: 0;
+  transform: translateX(-100vw);
+  transition: 0.5s;
+  box-shadow: 0 0 0 1px rgba(51, 51, 51, 0.01), 11px 0 26px -5px rgba(51, 51, 51, 0.6);
+
+  &.active {
+    transform: translateX(0);
+  }
+
+  nav {
+    img {
+      margin: 30px 10px;
+    }
+  }
+  ul {
+    li {
+      a {
+        display: block;
+        padding: 10px 25px;
+        color: $color-lgray;
+        font-size: 20px;
+        transition: 0.3s;
+        i {
+          margin-right: 10px;
+        }
+
+        &:hover{
+          color: $color-white;
+
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: $screen-md) {
+   width: 255px;
+   height: 100%;
+   display: block;
+   transform: translateX(0);
+   min-height: 100vh;
+  }
+}
