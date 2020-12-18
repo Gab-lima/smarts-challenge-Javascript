@@ -16,3 +16,14 @@ Passo a passo para configurar o projeto.
     se existir algum tipo de erro, seja ele de estilo js ou de estrutura ele vai avisar no terminal onde o comando foi rodado
 
     - seu projeto está pronto, agora é só codar!"# smarts-challenge-Javascript" 
+
+
+Algumas fonts que estudei para realizar o projeto: 
+
+https://www.tutorialsteacher.com/jquery/jquery-get-method
+
+https://stackoverflow.com/questions/11179406/jquery-get-value-of-select-onchange
+
+https://stackoverflow.com/questions/45693710/autosubmit-ajax-search-form-on-select-filter-change
+
+https://stackoverflow.com/questions/4739968/jquery-toggleclass-parent-and-children
